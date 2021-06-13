@@ -1,7 +1,7 @@
 import { elementCreator } from "./menu";
 
  function  contact() {
-    const contactDiv = elementCreator("div",  {className : "contaact-name"});
+    const contactDiv = elementCreator("div",  {className : "contact-name"});
     const headDiv = elementCreator("div" , {className : "heading"});
     const heading = elementCreator("h1");
     heading.textContent = "Contact us";
